@@ -56,6 +56,10 @@ p
 #save plot
 filename <- "./plots/Ky_Medicare_Readmit_Penalty_by_Hosp_2013_2017.pdf"
 ggsave(filename = filename, width = 8, height = 5, unit = "in")
+
+#save facebook plot
+filename <- "./plots/Ky_Medicare_Readmit_Penalty_by_Hosp_2013_2017_fb.pdf"
+ggsave(filename = filename, width = 6, height = 3.15, unit = "in")
 rm(list = ls())
 
 
